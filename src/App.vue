@@ -1,8 +1,8 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+<template lang="pug">
+  div#app
+    side-nav.side-nav
+    main.wrapper
+      router-view
 </template>
 
 <script>
